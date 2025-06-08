@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <rect width="500" height="300" fill="#f0fff0"/>
+  
+  <!-- Notecard 1 -->
+  <rect x="80" y="60" width="80" height="100" fill="white" stroke="#ff69b4" stroke-width="2" rx="5"/>
+  <rect x="85" y="65" width="70" height="90" fill="#ffe8f0"/>
+  <text x="120" y="85" font-family="Arial, sans-serif" font-size="16" fill="#ff69b4" text-anchor="middle">🌸</text>
+  <text x="120" y="105" font-family="Arial, sans-serif" font-size="8" fill="#ff69b4" text-anchor="middle">SPRING</text>
+  <text x="120" y="118" font-family="Arial, sans-serif" font-size="8" fill="#ff69b4" text-anchor="middle">BLOSSOMS</text>
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="7" fill="#666" text-anchor="middle">With Stamp</text>
+  
+  <!-- Notecard 2 -->
+  <rect x="180" y="60" width="80" height="100" fill="white" stroke="#32cd32" stroke-width="2" rx="5"/>
+  <rect x="185" y="65" width="70" height="90" fill="#f0fff0"/>
+  <text x="220" y="85" font-family="Arial, sans-serif" font-size="16" fill="#32cd32" text-anchor="middle">🌿</text>
+  <text x="220" y="105" font-family="Arial, sans-serif" font-size="8" fill="#32cd32" text-anchor="middle">GARDEN</text>
+  <text x="220" y="118" font-family="Arial, sans-serif" font-size="8" fill="#32cd32" text-anchor="middle">FRESH</text>
+  <text x="220" y="140" font-family="Arial, sans-serif" font-size="7" fill="#666" text-anchor="middle">With Stamp</text>
+  
+  <!-- Notecard 3 -->
+  <rect x="280" y="60" width="80" height="100" fill="white" stroke="#ffa500" stroke-width="2" rx="5"/>
+  <rect x="285" y="65" width="70" height="90" fill="#fff8e1"/>
+  <text x="320" y="85" font-family="Arial, sans-serif" font-size="16" fill="#ffa500" text-anchor="middle">🦋</text>
+  <text x="320" y="105" font-family="Arial, sans-serif" font-size="8" fill="#ffa500" text-anchor="middle">BUTTERFLY</text>
+  <text x="320" y="118" font-family="Arial, sans-serif" font-size="8" fill="#ffa500" text-anchor="middle">MEADOW</text>
+  <text x="320" y="140" font-family="Arial, sans-serif" font-size="7" fill="#666" text-anchor="middle">With Stamp</text>
+  
+  <!-- Notecard 4 -->
+  <rect x="380" y="60" width="80" height="100" fill="white" stroke="#87ceeb" stroke-width="2" rx="5"/>
+  <rect x="385" y="65" width="70" height="90" fill="#e8f4fd"/>
+  <text x="420" y="85" font-family="Arial, sans-serif" font-size="16" fill="#87ceeb" text-anchor="middle">☀️</text>
+  <text x="420" y="105" font-family="Arial, sans-serif" font-size="8" fill="#87ceeb" text-anchor="middle">SUNNY</text>
+  <text x="420" y="118" font-family="Arial, sans-serif" font-size="8" fill="#87ceeb" text-anchor="middle">DAYS</text>
+  <text x="420" y="140" font-family="Arial, sans-serif" font-size="7" fill="#666" text-anchor="middle">With Stamp</text>
+  
+  <!-- Decorative elements -->
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="20" fill="#ff69b4">🌺</text>
+  <text x="470" y="120" font-family="Arial, sans-serif" font-size="18" fill="#32cd32">🌱</text>
+  <text x="30" y="140" font-family="Arial, sans-serif" font-size="16" fill="#ffa500">🌻</text>
+  
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#004c97" text-anchor="middle">Spring Notecards</text>
+  <text x="250" y="225" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Send thoughtful notes with spring-inspired designs</text>
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Some sets include stamps</text>
+</svg>

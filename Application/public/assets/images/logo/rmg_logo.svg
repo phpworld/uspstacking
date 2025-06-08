@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Royal Mail Logo -->
+  <rect x="0" y="0" width="40" height="40" fill="#E60012" rx="4"/>
+  <text x="45" y="15" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#004B87">Royal Mail</text>
+  <text x="45" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666">Group Ltd</text>
+  
+  <!-- Crown symbol -->
+  <g transform="translate(8, 8)">
+    <path d="M12 4 L8 12 L16 12 Z" fill="#FFD100"/>
+    <circle cx="12" cy="6" r="2" fill="#FFD100"/>
+    <rect x="10" y="12" width="4" height="8" fill="#FFD100"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30" cy="30" r="28" fill="#004B87" stroke="#E60012" stroke-width="2"/>
+  <g transform="translate(15, 15)">
+    <!-- Clock -->
+    <circle cx="15" cy="15" r="10" fill="#fff" stroke="#E60012" stroke-width="2"/>
+    <line x1="15" y1="15" x2="15" y2="8" stroke="#004B87" stroke-width="2"/>
+    <line x1="15" y1="15" x2="20" y2="15" stroke="#004B87" stroke-width="2"/>
+    <!-- Exclamation -->
+    <circle cx="8" cy="8" r="3" fill="#FFD100"/>
+    <line x1="8" y1="6" x2="8" y2="9" stroke="#E60012" stroke-width="2"/>
+    <circle cx="8" cy="10.5" r="0.5" fill="#E60012"/>
+  </g>
+  <text x="30" y="45" text-anchor="middle" font-family="Arial" font-size="8" fill="#004B87">MISSED</text>
+</svg>

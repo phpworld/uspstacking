@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <rect width="400" height="250" fill="#e8f4fd"/>
+  <rect x="80" y="60" width="80" height="60" fill="#004c97" rx="5"/>
+  <rect x="85" y="65" width="70" height="50" fill="white" rx="3"/>
+  <text x="120" y="85" font-family="Arial, sans-serif" font-size="10" fill="#004c97" text-anchor="middle">🏠</text>
+  <text x="120" y="105" font-family="Arial, sans-serif" font-size="8" fill="#004c97" text-anchor="middle">OLD HOME</text>
+  
+  <path d="M 170 90 L 210 90" stroke="#004c97" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#004c97"/>
+    </marker>
+  </defs>
+  
+  <rect x="240" y="60" width="80" height="60" fill="#0073e6" rx="5"/>
+  <rect x="245" y="65" width="70" height="50" fill="white" rx="3"/>
+  <text x="280" y="85" font-family="Arial, sans-serif" font-size="10" fill="#0073e6" text-anchor="middle">🏡</text>
+  <text x="280" y="105" font-family="Arial, sans-serif" font-size="8" fill="#0073e6" text-anchor="middle">NEW HOME</text>
+  
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#004c97" text-anchor="middle">Change of Address</text>
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Moving? Update your address online</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">$1.10 verification fee</text>
+</svg>

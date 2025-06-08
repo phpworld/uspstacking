@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Test - USPS</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <style>
+        .test-info {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #004c97;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Links -->
+    <a href="#endnav" class="skip-link">Skip to Main Content</a>
+
+    <!-- Top Utility Bar -->
+    <div class="utility-bar bg-light py-1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown me-3">
+                            <a href="#" class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">
+                                English
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Español</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end align-items-center utility-links">
+                        <a href="#" class="text-decoration-none me-3">Locations</a>
+                        <a href="#" class="text-decoration-none me-3">Support</a>
+                        <a href="#" class="text-decoration-none">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header bg-white">
+        <div class="container-fluid">
+            <!-- Desktop Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
+                <a class="navbar-brand me-4" href="#">
+                    <img src="images/logo/usps-logo.svg" alt="USPS Logo" height="45">
+                </a>
+                
+                <div class="navbar-nav flex-row">
+                    <div class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" data-bs-toggle="dropdown">
+                            Quick Tools
+                        </a>
+                        <div class="dropdown-menu mega-menu p-4">
+                            <div class="container">
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <a href="#" class="dropdown-item d-flex align-items-center p-2">
+                                            <img src="images/icons/tracking.svg" alt="Tracking" class="me-2" width="20" height="20">
+                                            <span>Track a Package</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="#" class="dropdown-item d-flex align-items-center p-2">
+                                            <img src="images/icons/stamps.svg" alt="Stamps" class="me-2" width="20" height="20">
+                                            <span>Buy Stamps</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="#" class="dropdown-item d-flex align-items-center p-2">
+                                            <img src="images/icons/location.svg" alt="Locations" class="me-2" width="20" height="20">
+                                            <span>Find Locations</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" data-bs-toggle="dropdown">Send</a>
+                        <div class="dropdown-menu p-3" style="width: 300px;">
+                            <h6 class="dropdown-header">Tools</h6>
+                            <a class="dropdown-item" href="#">Click-N-Ship</a>
+                            <a class="dropdown-item" href="#">Stamps & Supplies</a>
+                            <a class="dropdown-item" href="#">Calculate a Price</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" data-bs-toggle="dropdown">Receive</a>
+                        <div class="dropdown-menu p-3" style="width: 300px;">
+                            <h6 class="dropdown-header">Tools</h6>
+                            <a class="dropdown-item" href="#">Tracking</a>
+                            <a class="dropdown-item" href="#">Informed Delivery</a>
+                            <a class="dropdown-item" href="#">Hold Mail</a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" data-bs-toggle="dropdown">Shop</a>
+                        <div class="dropdown-menu p-3" style="width: 250px;">
+                            <h6 class="dropdown-header">Shop</h6>
+                            <a class="dropdown-item" href="#">Stamps</a>
+                            <a class="dropdown-item" href="#">Shipping Supplies</a>
+                            <a class="dropdown-item" href="#">Cards & Envelopes</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div id="endnav"></div>
+
+    <!-- Test Content -->
+    <div class="container mt-5">
+        <div class="test-info">
+            <h2>Navigation Test Page</h2>
+            <p><strong>Instructions:</strong></p>
+            <ul>
+                <li>Hover over the navigation items (Quick Tools, Send, Receive, Shop) to test dropdown functionality</li>
+                <li>Click on navigation items to test click functionality</li>
+                <li>Check browser console (F12) for any JavaScript errors</li>
+                <li>Test on both desktop and mobile views</li>
+            </ul>
+            
+            <div class="mt-4">
+                <h4>Expected Behavior:</h4>
+                <ul>
+                    <li>✅ Dropdowns should appear on hover (desktop)</li>
+                    <li>✅ Dropdowns should appear on click (mobile)</li>
+                    <li>✅ Only one dropdown should be open at a time</li>
+                    <li>✅ Clicking outside should close dropdowns</li>
+                    <li>✅ ESC key should close dropdowns</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="alert alert-info">
+            <strong>Debug Info:</strong> Check the browser console for initialization messages.
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Additional test script
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Test page loaded');
+            
+            // Test dropdown functionality
+            const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+            console.log('Dropdowns found:', dropdowns.length);
+            
+            dropdowns.forEach((dropdown, index) => {
+                const toggle = dropdown.querySelector('.dropdown-toggle');
+                const menu = dropdown.querySelector('.dropdown-menu');
+                console.log(`Dropdown ${index + 1}:`, {
+                    toggle: !!toggle,
+                    menu: !!menu,
+                    toggleText: toggle ? toggle.textContent.trim() : 'N/A'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

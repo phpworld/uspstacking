@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="30" cy="30" r="28" fill="#666666" stroke="#E60012" stroke-width="2"/>
+  <g transform="translate(15, 15)">
+    <!-- Return arrow -->
+    <path d="M25 10 C25 10, 15 10, 10 15 C5 20, 5 25, 10 25 L20 25" stroke="#FFD100" stroke-width="3" fill="none"/>
+    <polygon points="18,22 22,25 18,28" fill="#FFD100"/>
+    <!-- Package -->
+    <rect x="12" y="12" width="8" height="6" fill="#fff" stroke="#E60012" stroke-width="1"/>
+    <line x1="16" y1="12" x2="16" y2="18" stroke="#E60012" stroke-width="1"/>
+    <line x1="12" y1="15" x2="20" y2="15" stroke="#E60012" stroke-width="1"/>
+  </g>
+  <text x="30" y="45" text-anchor="middle" font-family="Arial" font-size="8" fill="#333333">RETURN</text>
+</svg>

@@ -1,0 +1,1323 @@
+/* Royal Mail Website Clone - Custom Styles */
+
+/* Root Variables */
+:root {
+    --royal-mail-red: #E60012;
+    --royal-mail-yellow: #FFD100;
+    --royal-mail-dark-gray: #333333;
+    --royal-mail-gray: #666666;
+    --royal-mail-light-gray: #f8f9fa;
+    --royal-mail-border-gray: #dee2e6;
+    --royal-mail-text-gray: #555555;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: var(--royal-mail-red);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* Header Styles */
+.header-section {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 0.5rem 0;
+    min-height: 70px;
+}
+
+.navbar-brand {
+    padding: 0.5rem 0;
+}
+
+.navbar-brand img {
+    height: 45px;
+    width: auto;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: var(--royal-mail-dark-gray) !important;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--royal-mail-red) !important;
+}
+
+.navbar-nav .nav-link:focus {
+    color: var(--royal-mail-red) !important;
+    outline: 2px solid var(--royal-mail-red);
+    outline-offset: 2px;
+}
+
+/* Mega Menu Styles */
+.mega-dropdown {
+    position: static;
+}
+
+.mega-dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    padding: 3rem 0;
+    background: white;
+    z-index: 999;
+}
+
+.mega-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.mega-menu .row {
+    margin: 0;
+}
+
+.mega-menu .col-md-3 {
+    padding: 0 20px;
+}
+
+.dropdown-header {
+    font-weight: bold;
+    color: var(--royal-mail-dark-gray);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown-item {
+    padding: 0.5rem 0;
+    border: none;
+    color: var(--royal-mail-text-gray);
+}
+
+.dropdown-item:hover {
+    background-color: var(--royal-mail-light-gray);
+    color: var(--royal-mail-red);
+}
+
+.promo-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.promo-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.promo-card h6 {
+    font-weight: bold;
+    margin: 1rem 1rem 0.5rem;
+    color: var(--royal-mail-dark-gray);
+}
+
+.promo-card p {
+    margin: 0 1rem 1rem;
+    font-size: 0.9rem;
+    color: var(--royal-mail-gray);
+}
+
+.quick-link-item {
+    display: block;
+    padding: 0.5rem 0;
+    color: var(--royal-mail-dark-gray);
+    text-decoration: none;
+}
+
+.quick-link-item:hover {
+    color: var(--royal-mail-red);
+}
+
+.quick-link-item i {
+    margin-right: 0.5rem;
+    color: var(--royal-mail-red);
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: var(--royal-mail-red);
+    border-color: var(--royal-mail-red);
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #cc0010;
+    border-color: #cc0010;
+}
+
+.btn-outline-primary {
+    color: var(--royal-mail-red);
+    border-color: var(--royal-mail-red);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--royal-mail-red);
+    border-color: var(--royal-mail-red);
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, var(--royal-mail-red) 0%, #cc0010 100%);
+    color: white;
+    padding: 5rem 0;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.hero-features li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.hero-features i {
+    color: var(--royal-mail-yellow);
+    margin-right: 0.75rem;
+}
+
+.hero-tabs {
+    background: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    color: #333;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    min-height: 400px;
+}
+
+.hero-tabs .nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 2rem;
+}
+
+.hero-tabs .nav-link {
+    color: var(--royal-mail-gray);
+    font-weight: 600;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+.hero-tabs .nav-link.active {
+    color: var(--royal-mail-red);
+    border-bottom: 3px solid var(--royal-mail-red);
+    background: none;
+}
+
+/* Item Selector Dropdown */
+.item-selector-dropdown {
+    margin: 1.5rem 0;
+}
+
+.item-dropdown-btn {
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--royal-mail-border-gray);
+    background: white;
+    color: var(--royal-mail-dark-gray);
+    font-size: 1rem;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-dropdown-btn:hover {
+    border-color: var(--royal-mail-red);
+    color: var(--royal-mail-red);
+}
+
+.item-dropdown-btn:focus {
+    border-color: var(--royal-mail-red);
+    box-shadow: 0 0 0 0.2rem rgba(230, 0, 18, 0.25);
+}
+
+.item-dropdown-menu {
+    border: 2px solid var(--royal-mail-border-gray);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 0;
+    margin-top: 5px;
+}
+
+.item-dropdown-menu .dropdown-item {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+.item-dropdown-menu .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.item-dropdown-menu .dropdown-item:hover {
+    background-color: var(--royal-mail-light-gray);
+    color: var(--royal-mail-red);
+}
+
+.item-dropdown-menu .dropdown-item.active {
+    background-color: var(--royal-mail-red);
+    color: white;
+}
+
+.item-dropdown-menu .dropdown-item.active .price-tag {
+    color: var(--royal-mail-yellow);
+}
+
+.price-tag {
+    color: var(--royal-mail-red);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.selected-item {
+    font-weight: 500;
+}
+
+.selected-price {
+    color: var(--royal-mail-red);
+    font-weight: 600;
+}
+
+.additional-links a {
+    color: var(--royal-mail-red);
+    font-size: 0.9rem;
+}
+
+.additional-links a:hover {
+    color: #cc0010;
+    text-decoration: underline !important;
+}
+
+/* Quick Links Section */
+.quick-links-section {
+    background-color: var(--royal-mail-light-gray);
+}
+
+.quick-link-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.quick-link-card:hover {
+    transform: translateY(-5px);
+}
+
+.quick-link-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+}
+
+.quick-link-card h5 {
+    color: var(--royal-mail-dark-gray);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Special Stamps Section */
+.special-stamps-section {
+    background: linear-gradient(45deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.promo-content h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--royal-mail-dark-gray);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+/* Services Section */
+.service-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-3px);
+}
+
+.service-card .card-body {
+    padding: 2rem;
+}
+
+.service-card h5 {
+    color: var(--royal-mail-dark-gray);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.service-links {
+    margin: 1.5rem 0;
+}
+
+.service-link {
+    display: block;
+    color: var(--royal-mail-red);
+    text-decoration: none;
+    padding: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+.service-link:hover {
+    text-decoration: underline;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.service-features li {
+    padding: 0.25rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.service-features li:before {
+    content: "•";
+    color: var(--royal-mail-red);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+/* Help Section */
+.help-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.help-card:hover {
+    transform: translateY(-3px);
+}
+
+.help-card-body {
+    padding: 1.5rem;
+}
+
+.help-card h5 {
+    color: var(--royal-mail-dark-gray);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Sustainability Section */
+.sustainability-content h2 {
+    color: var(--royal-mail-dark-gray);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+.footer-section {
+    background-color: var(--royal-mail-dark-gray) !important;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: var(--royal-mail-light-gray);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--royal-mail-red);
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #cc0010;
+    color: white;
+}
+
+.footer-bottom-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-bottom-links a {
+    color: var(--royal-mail-light-gray);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.footer-bottom-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.copyright {
+    color: var(--royal-mail-gray);
+    font-size: 0.8rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 0;
+        min-height: 500px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-tabs {
+        padding: 1.5rem;
+        min-height: 350px;
+    }
+
+    .mega-menu {
+        min-width: auto;
+    }
+
+    .item-dropdown-btn {
+        padding: 0.75rem 1rem;
+        min-height: 50px;
+        font-size: 0.9rem;
+    }
+
+    .item-dropdown-menu .dropdown-item {
+        padding: 0.75rem 1rem;
+    }
+
+    .footer-bottom-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 2rem 0;
+        min-height: 450px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-features li {
+        font-size: 1rem;
+        padding: 0.25rem 0;
+    }
+
+    .hero-tabs {
+        padding: 1rem;
+        min-height: 300px;
+    }
+
+    .hero-tabs .nav-link {
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+
+    .item-dropdown-btn {
+        padding: 0.75rem;
+        min-height: 45px;
+        font-size: 0.85rem;
+    }
+
+    .item-dropdown-menu .dropdown-item {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .price-tag {
+        font-size: 0.8rem;
+    }
+
+    .promo-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+/* Fix for dropdown positioning on mobile */
+@media (max-width: 991px) {
+    .mega-dropdown .dropdown-menu {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: auto;
+        transform: none;
+    }
+}
+
+/* Tracking Page Styles */
+.tracking-hero-section {
+    background: linear-gradient(135deg, var(--royal-mail-light-gray) 0%, #e9ecef 100%);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+/* Professional Card Enhancements */
+.tracking-results-section .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+
+.tracking-results-section .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.tracking-summary-card .card {
+    border: 2px solid var(--royal-mail-red);
+    background: linear-gradient(135deg, #fff 0%, #fafafa 100%);
+}
+
+.tracking-summary-card .card-body {
+    background: white;
+}
+
+/* Enhanced Card Headers */
+.card-header.bg-light {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+    border-bottom: 2px solid var(--royal-mail-border-gray);
+    font-weight: 600;
+}
+
+.card-header h5 {
+    color: var(--royal-mail-dark-gray);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Professional Status Styling */
+.tracking-summary-card h3 {
+    color: var(--royal-mail-red);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.tracking-summary-card .badge {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.tracking-summary-card .card-text strong {
+    color: var(--royal-mail-dark-gray);
+}
+
+.tracking-summary-card .card-text span:not(.badge) {
+    color: var(--royal-mail-text-gray);
+}
+
+.tracking-form-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tracking-examples {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.tracking-summary-card .card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+.tracking-timeline-card .card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+.tracking-timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+    border-left: 2px solid #dee2e6;
+    margin-left: 1rem;
+}
+
+.timeline-item-last {
+    border-left: none;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    border: 2px solid #dee2e6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.timeline-content {
+    padding-left: 2rem;
+}
+
+.timeline-title {
+    color: var(--royal-mail-dark-gray);
+    font-weight: 600;
+}
+
+.timeline-description {
+    color: var(--royal-mail-text-gray);
+    margin-bottom: 0.5rem;
+}
+
+.quick-action-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.quick-action-card:hover {
+    transform: translateY(-5px);
+}
+
+.quick-action-icon {
+    margin-bottom: 1rem;
+}
+
+.breadcrumb-section {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.breadcrumb-item a {
+    color: var(--royal-mail-red);
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+    color: var(--royal-mail-gray);
+}
+
+/* Tracking input styling */
+.tracking-form .input-group-lg .form-control {
+    border: 2px solid var(--royal-mail-border-gray);
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.tracking-form .input-group-lg .form-control:focus {
+    border-color: var(--royal-mail-red);
+    box-shadow: 0 0 0 0.2rem rgba(230, 0, 18, 0.25);
+}
+
+.tracking-form .btn {
+    padding: 1rem 2rem;
+    font-weight: 600;
+}
+
+/* Status badges */
+.badge.bg-success {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+.badge.bg-primary {
+    background-color: var(--royal-mail-red) !important;
+    color: white !important;
+}
+
+.badge.bg-info {
+    background-color: #17a2b8 !important;
+    color: white !important;
+}
+
+.badge.bg-warning {
+    background-color: var(--royal-mail-yellow) !important;
+    color: var(--royal-mail-dark-gray) !important;
+}
+
+.badge.bg-secondary {
+    background-color: var(--royal-mail-gray) !important;
+    color: white !important;
+}
+
+/* Information Cards Styling */
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f8f9fa;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 600;
+    color: var(--royal-mail-dark-gray);
+    min-width: 120px;
+    flex-shrink: 0;
+}
+
+.info-value {
+    color: var(--royal-mail-text-gray);
+    text-align: right;
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+.sender-info .info-value,
+.receiver-info .info-value,
+.parcel-details .info-value,
+.location-info .info-value {
+    font-weight: 500;
+}
+
+/* Card Headers with Icons */
+.card-header h5 i {
+    font-size: 1.1rem;
+}
+
+.card-header.bg-light {
+    background-color: var(--royal-mail-light-gray) !important;
+    border-bottom: 2px solid var(--royal-mail-border-gray);
+}
+
+/* Badge Styling */
+.badge.bg-success {
+    background-color: #28a745 !important;
+}
+
+.badge.bg-secondary {
+    background-color: var(--royal-mail-gray) !important;
+}
+
+/* Delivery Options Styling */
+.delivery-options .option-item {
+    margin-bottom: 0.5rem;
+}
+
+.delivery-options .btn {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.delivery-options .btn i {
+    margin-right: 0.5rem;
+}
+
+/* Location Info Specific Styling */
+.location-info .info-value {
+    color: var(--royal-mail-dark-gray);
+    font-weight: 500;
+}
+
+.location-info .btn {
+    background-color: transparent;
+    border-color: var(--royal-mail-red);
+    color: var(--royal-mail-red);
+}
+
+.location-info .btn:hover {
+    background-color: var(--royal-mail-red);
+    color: white;
+}
+
+/* Parcel Information Grid */
+.parcel-details {
+    padding: 0;
+}
+
+.parcel-details .info-row {
+    padding: 0.5rem 0;
+}
+
+/* Responsive Information Cards */
+@media (max-width: 992px) {
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-label {
+        min-width: auto;
+        margin-bottom: 0.25rem;
+    }
+
+    .info-value {
+        text-align: left;
+        margin-left: 0;
+    }
+}
+
+/* Timeline responsive */
+@media (max-width: 768px) {
+    .tracking-hero-section {
+        min-height: 300px;
+        padding: 2rem 0;
+    }
+
+    .tracking-form-card {
+        padding: 1.5rem;
+        margin: 0 1rem;
+    }
+
+    .timeline-content {
+        padding-left: 1rem;
+    }
+
+    .timeline-marker {
+        left: -1.25rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    .quick-action-card {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .info-row {
+        padding: 0.5rem 0;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+/* Additional Red Color Fixes */
+.timeline-marker i.text-primary {
+    color: var(--royal-mail-red) !important;
+}
+
+.timeline-marker i.text-success {
+    color: #28a745 !important;
+}
+
+.timeline-marker i.text-info {
+    color: #17a2b8 !important;
+}
+
+.timeline-marker i.text-secondary {
+    color: var(--royal-mail-gray) !important;
+}
+
+.timeline-marker i.text-warning {
+    color: var(--royal-mail-yellow) !important;
+}
+
+.timeline-marker i.text-danger {
+    color: var(--royal-mail-red) !important;
+}
+
+/* Icon color consistency */
+.card-header h5 i.text-primary {
+    color: var(--royal-mail-red) !important;
+}
+
+.card-header h5 i.text-success {
+    color: #28a745 !important;
+}
+
+.card-header h5 i.text-warning {
+    color: var(--royal-mail-yellow) !important;
+}
+
+.card-header h5 i.text-danger {
+    color: var(--royal-mail-red) !important;
+}
+
+/* Print Styles for Single Page Format */
+@media print {
+    /* Hide non-essential elements */
+    .navbar,
+    .breadcrumb-section,
+    .tracking-hero-section,
+    .quick-actions-section,
+    .track-multiple-section,
+    .footer-section,
+    .btn,
+    button,
+    .print-button {
+        display: none !important;
+    }
+
+    /* Reset page margins for maximum space */
+    @page {
+        margin: 0.5cm;
+        size: A4;
+    }
+
+    body {
+        font-size: 9pt;
+        line-height: 1.2;
+        color: #000;
+        background: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Compact print header */
+    .tracking-results-section::before {
+        content: "ROYAL MAIL TRACKING INFORMATION";
+        display: block;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 8pt;
+        padding-bottom: 4pt;
+        border-bottom: 1.5pt solid #E60012;
+        color: #E60012;
+    }
+
+    /* Compact card styling */
+    .card {
+        border: 0.5pt solid #333;
+        margin-bottom: 6pt;
+        page-break-inside: avoid;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .card-header {
+        background: #f0f0f0 !important;
+        border-bottom: 0.5pt solid #333;
+        padding: 4pt 6pt;
+    }
+
+    .card-header h5 {
+        font-size: 10pt;
+        font-weight: bold;
+        margin: 0;
+        color: #333;
+    }
+
+    .card-body {
+        padding: 6pt;
+    }
+
+    /* Compact information rows */
+    .info-row {
+        padding: 1pt 0;
+        border-bottom: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 8pt;
+        line-height: 1.1;
+    }
+
+    .info-label {
+        font-weight: bold;
+        color: #333;
+        width: 35%;
+        font-size: 8pt;
+    }
+
+    .info-value {
+        color: #000;
+        width: 65%;
+        text-align: right;
+        font-size: 8pt;
+    }
+
+    /* Compact timeline */
+    .tracking-timeline {
+        padding-left: 0;
+    }
+
+    .timeline-item {
+        border-left: 1pt solid #ddd;
+        margin-left: 6pt;
+        padding-left: 8pt;
+        padding-bottom: 4pt;
+        page-break-inside: avoid;
+    }
+
+    .timeline-marker {
+        display: none;
+    }
+
+    .timeline-title {
+        font-weight: bold;
+        font-size: 9pt;
+        color: #333;
+        margin-bottom: 1pt;
+    }
+
+    .timeline-description {
+        font-size: 8pt;
+        color: #666;
+        margin-bottom: 1pt;
+    }
+
+    .timeline-content small {
+        font-size: 7pt;
+    }
+
+    /* Compact badges */
+    .badge {
+        border: 0.5pt solid #333;
+        padding: 1pt 3pt;
+        font-size: 7pt;
+        color: #000 !important;
+        background: white !important;
+        border-radius: 0;
+    }
+
+    .badge.bg-success::after {
+        content: " ✓";
+    }
+
+    .badge.bg-secondary::after {
+        content: " ✗";
+    }
+
+    /* Compact summary card */
+    .tracking-summary-card .card {
+        border: 1pt solid #E60012;
+        margin-bottom: 8pt;
+    }
+
+    .tracking-summary-card .card-body {
+        padding: 8pt;
+    }
+
+    .tracking-summary-card h3 {
+        font-size: 12pt;
+        color: #E60012;
+        margin-bottom: 4pt;
+        line-height: 1.1;
+    }
+
+    .tracking-summary-card .card-text {
+        font-size: 9pt;
+        margin-bottom: 2pt;
+    }
+
+    /* Two-column layout for sender/receiver */
+    .row.g-4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .row.g-4 .col-lg-6 {
+        width: 50%;
+        padding: 0 3pt;
+        margin-bottom: 6pt;
+    }
+
+    /* Full width sections remain full width */
+    .row.mb-4 .col-12 {
+        width: 100%;
+        margin-bottom: 6pt;
+    }
+
+    /* Compact two-column layout within cards */
+    .card-body .row .col-md-6 {
+        width: 50%;
+        padding: 0 3pt;
+    }
+
+    /* Hide icons in print */
+    .fas,
+    .fab {
+        display: none;
+    }
+
+    /* Compact footer */
+    .tracking-results-section::after {
+        content: "Printed: " counter(page) " | Royal Mail Group Ltd";
+        display: block;
+        font-size: 7pt;
+        text-align: center;
+        margin-top: 8pt;
+        padding-top: 4pt;
+        border-top: 0.5pt solid #ddd;
+        color: #666;
+    }
+
+    /* Prevent page breaks in critical sections */
+    .tracking-summary-card,
+    .card {
+        page-break-inside: avoid;
+    }
+
+    /* Ensure content fits on one page */
+    .tracking-results-section {
+        max-height: 95vh;
+        overflow: hidden;
+    }
+
+    /* Reduce spacing between sections */
+    .mb-4 {
+        margin-bottom: 6pt !important;
+    }
+
+    /* Compact paragraph spacing */
+    p {
+        margin-bottom: 2pt;
+    }
+
+    /* Reduce header spacing */
+    h3, h4, h5, h6 {
+        margin-bottom: 2pt;
+        margin-top: 2pt;
+    }
+}
+
+/* Print button styling */
+.print-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: var(--royal-mail-red);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.print-button:hover {
+    background: #cc0010;
+    color: white;
+}
+
+@media print {
+    .print-button {
+        display: none !important;
+    }
+}

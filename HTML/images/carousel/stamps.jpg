@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <rect width="500" height="300" fill="#f8f9fa"/>
+  
+  <!-- Stamp 1 -->
+  <rect x="50" y="50" width="80" height="100" fill="white" stroke="#004c97" stroke-width="2" stroke-dasharray="5,5"/>
+  <rect x="55" y="55" width="70" height="90" fill="#e8f4fd"/>
+  <text x="90" y="80" font-family="Arial, sans-serif" font-size="12" fill="#004c97" text-anchor="middle">🇺🇸</text>
+  <text x="90" y="100" font-family="Arial, sans-serif" font-size="8" fill="#004c97" text-anchor="middle">FOREVER</text>
+  <text x="90" y="115" font-family="Arial, sans-serif" font-size="8" fill="#004c97" text-anchor="middle">USA</text>
+  <text x="90" y="135" font-family="Arial, sans-serif" font-size="10" fill="#cc0000" text-anchor="middle">$0.73</text>
+  
+  <!-- Stamp 2 -->
+  <rect x="150" y="50" width="80" height="100" fill="white" stroke="#004c97" stroke-width="2" stroke-dasharray="5,5"/>
+  <rect x="155" y="55" width="70" height="90" fill="#ffe8e8"/>
+  <text x="190" y="80" font-family="Arial, sans-serif" font-size="12" fill="#cc0000" text-anchor="middle">🌸</text>
+  <text x="190" y="100" font-family="Arial, sans-serif" font-size="8" fill="#cc0000" text-anchor="middle">SPRING</text>
+  <text x="190" y="115" font-family="Arial, sans-serif" font-size="8" fill="#cc0000" text-anchor="middle">FLOWERS</text>
+  <text x="190" y="135" font-family="Arial, sans-serif" font-size="10" fill="#004c97" text-anchor="middle">$0.73</text>
+  
+  <!-- Stamp 3 -->
+  <rect x="250" y="50" width="80" height="100" fill="white" stroke="#004c97" stroke-width="2" stroke-dasharray="5,5"/>
+  <rect x="255" y="55" width="70" height="90" fill="#e8ffe8"/>
+  <text x="290" y="80" font-family="Arial, sans-serif" font-size="12" fill="#008000" text-anchor="middle">🦅</text>
+  <text x="290" y="100" font-family="Arial, sans-serif" font-size="8" fill="#008000" text-anchor="middle">WILDLIFE</text>
+  <text x="290" y="115" font-family="Arial, sans-serif" font-size="8" fill="#008000" text-anchor="middle">SERIES</text>
+  <text x="290" y="135" font-family="Arial, sans-serif" font-size="10" fill="#004c97" text-anchor="middle">$0.73</text>
+  
+  <!-- Postcard stamp -->
+  <rect x="350" y="80" width="60" height="40" fill="white" stroke="#004c97" stroke-width="2" stroke-dasharray="3,3"/>
+  <rect x="353" y="83" width="54" height="34" fill="#fff8e1"/>
+  <text x="380" y="95" font-family="Arial, sans-serif" font-size="8" fill="#004c97" text-anchor="middle">POSTCARD</text>
+  <text x="380" y="108" font-family="Arial, sans-serif" font-size="10" fill="#cc0000" text-anchor="middle">$0.56</text>
+  
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#004c97" text-anchor="middle">USPS Stamps Collection</text>
+  <text x="250" y="225" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Celebrating life, art, and culture</text>
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Forever Stamps: $0.73 | Postcard Stamps: $0.56</text>
+</svg>

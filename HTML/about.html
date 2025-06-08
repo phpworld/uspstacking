@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | USPS</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip Links -->
+    <a href="#endnav" class="skip-link">Skip to Main Content</a>
+    <a href="#skipallnav" class="skip-link">Skip All Utility Navigation</a>
+
+    <!-- Top Utility Bar -->
+    <div class="utility-bar bg-light py-1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown me-3">
+                            <a href="#" class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-label="Current language: English">
+                                English
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Español</a></li>
+                                <li><a class="dropdown-item" href="#">Chinese</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end align-items-center utility-links">
+                        <a href="#" class="text-decoration-none me-3">Locations</a>
+                        <a href="#" class="text-decoration-none me-3">Support</a>
+                        <a href="#" class="text-decoration-none me-3">Informed Delivery</a>
+                        <a href="#" class="text-decoration-none">Register / Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header bg-white">
+        <div class="container-fluid">
+            <!-- Desktop Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
+                <a class="navbar-brand me-4" href="index.html">
+                    <img src="images/logo/usps-logo.svg" alt="Image of USPS.com logo." height="45">
+                </a>
+                
+                <div class="navbar-nav flex-row">
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="index.html">Home</a>
+                    </div>
+                    
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark active" href="about.html">About Us</a>
+                    </div>
+                    
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="send.html">SEND</a>
+                    </div>
+                    
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="receive.html">RECEIVE</a>
+                    </div>
+                    
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="faq.html">FAQ</a>
+                    </div>
+                    
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="tracking.html">Tracking</a>
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- Mobile Navigation -->
+            <nav class="navbar navbar-expand-lg d-lg-none">
+                <div class="d-flex align-items-center w-100">
+                    <button class="navbar-toggler border-0 p-0 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav">
+                        <img src="images/icons/hamburger.svg" alt="hamburger menu Icon" width="24" height="24">
+                    </button>
+                    
+                    <a class="navbar-brand mx-auto" href="index.html">
+                        <img src="images/logo/usps-mobile-logo.svg" alt="USPS mobile logo" height="30">
+                    </a>
+                    
+                    <div class="d-flex">
+                        <button class="btn border-0 p-0 me-2" data-bs-toggle="modal" data-bs-target="#searchModal">
+                            <img src="images/icons/search.svg" alt="Search Icon" width="24" height="24">
+                        </button>
+                        <a href="#" class="btn btn-link text-decoration-none">Sign In</a>
+                    </div>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="mobileNav">
+                    <div class="navbar-nav w-100 mt-3">
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="index.html">Home</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom active" href="about.html">About Us</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="send.html">SEND</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="receive.html">RECEIVE</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="faq.html">FAQ</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="tracking.html">Tracking</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div id="endnav"></div>
+    <div id="skipallnav"></div>
+
+    <!-- Page Content -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="display-4 text-center mb-5">About USPS</h1>
+                
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body p-5">
+                        <h2 class="h3 text-primary mb-4">Our Mission</h2>
+                        <p class="lead">The United States Postal Service (USPS) is an independent agency of the executive branch of the United States federal government responsible for providing postal service in the United States.</p>
+                        
+                        <p>We are committed to providing trusted, affordable, universal service to all Americans, regardless of geography, at uniform price and quality. The Postal Service receives no tax dollars for operating expenses and relies on the sale of postage, products, and services to fund its operations.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4 mb-5">
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <h3 class="h4 text-primary mb-3">Our History</h3>
+                                <p>Founded in 1775, the USPS has a rich history of connecting people and businesses across America. From the Pony Express to modern package delivery, we've evolved to meet the changing needs of our customers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <h3 class="h4 text-primary mb-3">Our Network</h3>
+                                <p>With over 31,000 retail locations and 230,000 vehicles, we operate the largest civilian vehicle fleet in the world, delivering to every address in the nation six days a week.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body p-5">
+                        <h2 class="h3 text-primary mb-4">Our Services</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Mail Delivery</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Package Shipping</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>PO Box Services</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Money Orders</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Passport Services</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Informed Delivery</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Business Solutions</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>International Shipping</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <a href="index.html" class="btn btn-primary btn-lg">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Column 1: Logo & About -->
+                <div class="col-lg-4 mb-4">
+                    <a href="index.html" class="d-block mb-3">
+                        <img src="images/logo/usps-logo-white.svg" alt="USPS Logo" height="40">
+                    </a>
+                    <p class="text-light-emphasis">The United States Postal Service provides reliable, affordable, universal service to all Americans, regardless of geography.</p>
+                    <div class="social-links d-flex mt-3">
+                        <a href="#" class="text-light me-3" aria-label="Facebook">
+                            <i class="bi bi-facebook fs-5"></i>
+                        </a>
+                        <a href="#" class="text-light me-3" aria-label="Instagram">
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                        <a href="#" class="text-light me-3" aria-label="Twitter">
+                            <i class="bi bi-twitter-x fs-5"></i>
+                        </a>
+                        <a href="#" class="text-light" aria-label="YouTube">
+                            <i class="bi bi-youtube fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-4 mb-4">
+                    <h6 class="mb-3 text-white">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="send.html" class="text-light text-decoration-none">Send</a></li>
+                        <li class="mb-2"><a href="receive.html" class="text-light text-decoration-none">Receive</a></li>
+                        <li class="mb-2"><a href="tracking.html" class="text-light text-decoration-none">Tracking</a></li>
+                        <li class="mb-2"><a href="faq.html" class="text-light text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact & Support -->
+                <div class="col-lg-4 mb-4">
+                    <h6 class="mb-3 text-white">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Customer Service</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Find Locations</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 border-secondary">
+
+            <div class="text-center">
+                <p class="mb-0 text-light-emphasis">&copy; 2024 United States Postal Service. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

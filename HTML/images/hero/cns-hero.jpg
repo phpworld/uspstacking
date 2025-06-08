@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004c97;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0073e6;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#heroGrad)"/>
+  <rect x="50" y="50" width="500" height="300" fill="white" rx="10" opacity="0.9"/>
+  <text x="300" y="120" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#004c97" text-anchor="middle">Click-N-Ship Service</text>
+  <text x="300" y="150" font-family="Arial, sans-serif" font-size="16" fill="#666" text-anchor="middle">Print shipping labels from home</text>
+  <rect x="150" y="180" width="300" height="120" fill="#f8f9fa" rx="5" stroke="#004c97" stroke-width="2"/>
+  <text x="300" y="210" font-family="Arial, sans-serif" font-size="14" fill="#004c97" text-anchor="middle">📦 Package</text>
+  <text x="300" y="240" font-family="Arial, sans-serif" font-size="14" fill="#004c97" text-anchor="middle">🖨️ Print Label</text>
+  <text x="300" y="270" font-family="Arial, sans-serif" font-size="14" fill="#004c97" text-anchor="middle">📮 Ship</text>
+</svg>

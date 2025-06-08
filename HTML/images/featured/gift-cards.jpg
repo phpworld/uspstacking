@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <rect width="400" height="250" fill="#f8f9fa"/>
+  <rect x="50" y="50" width="120" height="80" fill="#cc0000" rx="8"/>
+  <text x="110" y="85" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">GIFT</text>
+  <text x="110" y="105" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">CARD</text>
+  <rect x="230" y="50" width="120" height="80" fill="#004c97" rx="8"/>
+  <text x="290" y="85" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">GIFT</text>
+  <text x="290" y="105" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">CARD</text>
+  <text x="200" y="170" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#004c97" text-anchor="middle">Father's Day Gift Cards</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Perfect for Dad's special day</text>
+</svg>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Your Package | USPS</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip Links -->
+    <a href="#endnav" class="skip-link">Skip to Main Content</a>
+
+    <!-- Top Utility Bar -->
+    <div class="utility-bar bg-light py-1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown me-3">
+                            <a href="#" class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">
+                                English
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Español</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end align-items-center utility-links">
+                        <a href="#" class="text-decoration-none me-3">Locations</a>
+                        <a href="#" class="text-decoration-none me-3">Support</a>
+                        <a href="#" class="text-decoration-none">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header bg-white">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
+                <a class="navbar-brand me-4" href="index.html">
+                    <img src="images/logo/usps-logo.svg" alt="USPS Logo" height="45">
+                </a>
+                
+                <div class="navbar-nav flex-row">
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="index.html">Home</a>
+                    </div>
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="about.html">About Us</a>
+                    </div>
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="send.html">SEND</a>
+                    </div>
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="receive.html">RECEIVE</a>
+                    </div>
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark" href="faq.html">FAQ</a>
+                    </div>
+                    <div class="nav-item me-4">
+                        <a class="nav-link fw-bold text-dark active" href="tracking.html">Tracking</a>
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- Mobile Navigation -->
+            <nav class="navbar navbar-expand-lg d-lg-none">
+                <div class="d-flex align-items-center w-100">
+                    <button class="navbar-toggler border-0 p-0 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav">
+                        <img src="images/icons/hamburger.svg" alt="Menu" width="24" height="24">
+                    </button>
+                    <a class="navbar-brand mx-auto" href="index.html">
+                        <img src="images/logo/usps-mobile-logo.svg" alt="USPS" height="30">
+                    </a>
+                    <a href="#" class="btn btn-link text-decoration-none">Sign In</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="mobileNav">
+                    <div class="navbar-nav w-100 mt-3">
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="index.html">Home</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="about.html">About Us</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="send.html">SEND</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="receive.html">RECEIVE</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom" href="faq.html">FAQ</a>
+                        <a class="nav-link fw-bold text-dark py-3 border-bottom active" href="tracking.html">Tracking</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div id="endnav"></div>
+
+    <!-- Page Content -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="display-4 text-center mb-5">Track Your Package</h1>
+                
+                <!-- Tracking Form -->
+                <div class="card shadow-lg mb-5">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h2 class="h4 mb-0">
+                            <i class="bi bi-search me-2"></i>
+                            Enter Tracking Information
+                        </h2>
+                    </div>
+                    <div class="card-body p-5">
+                        <form id="trackingForm">
+                            <div class="mb-4">
+                                <label for="trackingNumbers" class="form-label fw-bold">Tracking Number</label>
+                                <input type="text" class="form-control form-control-lg" id="trackingNumbers"
+                                    placeholder="Enter tracking number (e.g., 9400 1000 0000 0000 0000 00)">
+                                <div class="form-text">
+                                    <i class="bi bi-info-circle me-1"></i>
+                                    Tracking numbers are typically 20-22 digits long or start with letters like EA, CP, etc.
+                                </div>
+                            </div>
+                            
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    <i class="bi bi-search me-2"></i>Track Package
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Sample Tracking Result -->
+                <div class="card shadow-sm mb-5" id="trackingResults" style="display: none;">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="h5 mb-0">
+                            <i class="bi bi-check-circle me-2"></i>
+                            Tracking Results
+                        </h3>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="tracking-item mb-4">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div>
+                                    <h4 class="h6 mb-1">Tracking Number: <span class="text-primary">9400 1000 0000 0000 0000 00</span></h4>
+                                    <p class="mb-0 text-muted">Priority Mail 2-Day™</p>
+                                </div>
+                                <span class="badge bg-success fs-6">Delivered</span>
+                            </div>
+                            
+                            <div class="tracking-timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker bg-success"></div>
+                                    <div class="timeline-content">
+                                        <h6 class="mb-1">Delivered</h6>
+                                        <p class="mb-1">Your item was delivered at 2:15 pm on March 15, 2024 in NEW YORK, NY 10001.</p>
+                                        <small class="text-muted">March 15, 2024, 2:15 pm</small>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <div class="timeline-marker bg-primary"></div>
+                                    <div class="timeline-content">
+                                        <h6 class="mb-1">Out for Delivery</h6>
+                                        <p class="mb-1">Your item is out for delivery in NEW YORK, NY 10001.</p>
+                                        <small class="text-muted">March 15, 2024, 8:30 am</small>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <div class="timeline-marker bg-info"></div>
+                                    <div class="timeline-content">
+                                        <h6 class="mb-1">Arrived at Post Office</h6>
+                                        <p class="mb-1">Your item arrived at the NEW YORK, NY 10001 Post Office.</p>
+                                        <small class="text-muted">March 14, 2024, 11:45 pm</small>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <div class="timeline-marker bg-secondary"></div>
+                                    <div class="timeline-content">
+                                        <h6 class="mb-1">In Transit</h6>
+                                        <p class="mb-1">Your item is in transit to the next facility.</p>
+                                        <small class="text-muted">March 13, 2024, 6:20 pm</small>
+                                    </div>
+                                </div>
+                                
+                                <div class="timeline-item">
+                                    <div class="timeline-marker bg-secondary"></div>
+                                    <div class="timeline-content">
+                                        <h6 class="mb-1">Shipped</h6>
+                                        <p class="mb-1">USPS picked up item from CHICAGO, IL 60601.</p>
+                                        <small class="text-muted">March 13, 2024, 10:15 am</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tracking Tips -->
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <h3 class="h5 text-primary mb-3">
+                                    <i class="bi bi-lightbulb me-2"></i>
+                                    Tracking Tips
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Tracking numbers are case-sensitive</li>
+                                    <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Remove spaces and special characters</li>
+                                    <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Enter one tracking number at a time</li>
+                                    <li class="mb-2"><i class="bi bi-check text-success me-2"></i>Updates may take 24 hours to appear</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <h3 class="h5 text-primary mb-3">
+                                    <i class="bi bi-question-circle me-2"></i>
+                                    Need Help?
+                                </h3>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <a href="faq.html" class="text-decoration-none">
+                                            <i class="bi bi-arrow-right me-2"></i>View FAQs
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="bi bi-arrow-right me-2"></i>Report Missing Mail
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="bi bi-arrow-right me-2"></i>File a Claim
+                                        </a>
+                                    </li>
+                                    <li class="mb-2">
+                                        <a href="#" class="text-decoration-none">
+                                            <i class="bi bi-arrow-right me-2"></i>Contact Customer Service
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Alternative Tracking Methods -->
+                <div class="card shadow-sm mt-5">
+                    <div class="card-header bg-info text-white">
+                        <h3 class="h5 mb-0">Other Ways to Track</h3>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row g-3">
+                            <div class="col-md-4 text-center">
+                                <i class="bi bi-phone display-6 text-primary mb-2"></i>
+                                <h6>Text Tracking</h6>
+                                <p class="small text-muted">Text your tracking number to <strong>28777 (2USPS)</strong></p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <i class="bi bi-app display-6 text-primary mb-2"></i>
+                                <h6>Mobile App</h6>
+                                <p class="small text-muted">Download the official USPS Mobile app</p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <i class="bi bi-envelope-open display-6 text-primary mb-2"></i>
+                                <h6>Informed Delivery®</h6>
+                                <p class="small text-muted">Get automatic email updates</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Column 1: Logo & About -->
+                <div class="col-lg-4 mb-4">
+                    <a href="index.html" class="d-block mb-3">
+                        <img src="images/logo/usps-logo-white.svg" alt="USPS Logo" height="40">
+                    </a>
+                    <p class="text-light-emphasis">The United States Postal Service provides reliable, affordable, universal service to all Americans, regardless of geography.</p>
+                    <div class="social-links d-flex mt-3">
+                        <a href="#" class="text-light me-3" aria-label="Facebook">
+                            <i class="bi bi-facebook fs-5"></i>
+                        </a>
+                        <a href="#" class="text-light me-3" aria-label="Instagram">
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                        <a href="#" class="text-light me-3" aria-label="Twitter">
+                            <i class="bi bi-twitter-x fs-5"></i>
+                        </a>
+                        <a href="#" class="text-light" aria-label="YouTube">
+                            <i class="bi bi-youtube fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-4 mb-4">
+                    <h6 class="mb-3 text-white">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="send.html" class="text-light text-decoration-none">Send</a></li>
+                        <li class="mb-2"><a href="receive.html" class="text-light text-decoration-none">Receive</a></li>
+                        <li class="mb-2"><a href="tracking.html" class="text-light text-decoration-none">Tracking</a></li>
+                        <li class="mb-2"><a href="faq.html" class="text-light text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact & Support -->
+                <div class="col-lg-4 mb-4">
+                    <h6 class="mb-3 text-white">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Customer Service</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Find Locations</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 border-secondary">
+
+            <div class="text-center">
+                <p class="mb-0 text-light-emphasis">&copy; 2024 United States Postal Service. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    
+    <!-- Tracking Page Specific JS -->
+    <script>
+        document.getElementById('trackingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const trackingNumbers = document.getElementById('trackingNumbers').value.trim();
+            
+            if (trackingNumbers) {
+                // Show sample tracking results
+                document.getElementById('trackingResults').style.display = 'block';
+                document.getElementById('trackingResults').scrollIntoView({ behavior: 'smooth' });
+                
+                // Show success message
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-success alert-dismissible fade show mt-3';
+                alert.innerHTML = `
+                    <i class="bi bi-check-circle me-2"></i>
+                    Tracking information found! Results displayed below.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                `;
+                document.getElementById('trackingForm').appendChild(alert);
+            } else {
+                // Show error message
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-danger alert-dismissible fade show mt-3';
+                alert.innerHTML = `
+                    <i class="bi bi-exclamation-triangle me-2"></i>
+                    Please enter at least one tracking number.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                `;
+                document.getElementById('trackingForm').appendChild(alert);
+            }
+        });
+    </script>
+    
+    <style>
+        .tracking-timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+        
+        .tracking-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.75rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #dee2e6;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+        
+        .timeline-marker {
+            position: absolute;
+            left: -2rem;
+            top: 0.25rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 0 2px #dee2e6;
+        }
+        
+        .timeline-content {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border-left: 3px solid #007bff;
+        }
+    </style>
+</body>
+</html>

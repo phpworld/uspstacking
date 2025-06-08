@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 30" width="80" height="30">
+  <rect width="80" height="30" fill="#004c97"/>
+  <text x="5" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">USPS</text>
+  <circle cx="65" cy="15" r="10" fill="white"/>
+  <text x="61" y="19" font-family="Arial, sans-serif" font-size="8" fill="#004c97">📮</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <rect width="500" height="300" fill="#f0f8ff"/>
+  
+  <!-- Priority Mail Box -->
+  <rect x="50" y="80" width="100" height="60" fill="#004c97" rx="5"/>
+  <rect x="55" y="85" width="90" height="50" fill="white" rx="3"/>
+  <text x="100" y="105" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#004c97" text-anchor="middle">PRIORITY MAIL</text>
+  <text x="100" y="120" font-family="Arial, sans-serif" font-size="8" fill="#004c97" text-anchor="middle">FREE BOX</text>
+  
+  <!-- Priority Mail Express Box -->
+  <rect x="170" y="80" width="100" height="60" fill="#cc0000" rx="5"/>
+  <rect x="175" y="85" width="90" height="50" fill="white" rx="3"/>
+  <text x="220" y="100" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#cc0000" text-anchor="middle">PRIORITY MAIL</text>
+  <text x="220" y="115" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#cc0000" text-anchor="middle">EXPRESS</text>
+  <text x="220" y="128" font-family="Arial, sans-serif" font-size="8" fill="#cc0000" text-anchor="middle">FREE BOX</text>
+  
+  <!-- Envelopes -->
+  <rect x="300" y="90" width="80" height="40" fill="white" stroke="#004c97" stroke-width="2" rx="3"/>
+  <text x="340" y="105" font-family="Arial, sans-serif" font-size="8" fill="#004c97" text-anchor="middle">PRIORITY MAIL</text>
+  <text x="340" y="118" font-family="Arial, sans-serif" font-size="8" fill="#004c97" text-anchor="middle">ENVELOPE</text>
+  
+  <rect x="390" y="90" width="80" height="40" fill="white" stroke="#cc0000" stroke-width="2" rx="3"/>
+  <text x="430" y="105" font-family="Arial, sans-serif" font-size="7" fill="#cc0000" text-anchor="middle">EXPRESS</text>
+  <text x="430" y="118" font-family="Arial, sans-serif" font-size="7" fill="#cc0000" text-anchor="middle">ENVELOPE</text>
+  
+  <!-- FREE labels -->
+  <circle cx="80" cy="60" r="15" fill="#00aa00"/>
+  <text x="80" y="65" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">FREE</text>
+  
+  <circle cx="200" cy="60" r="15" fill="#00aa00"/>
+  <text x="200" y="65" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">FREE</text>
+  
+  <circle cx="340" cy="70" r="15" fill="#00aa00"/>
+  <text x="340" y="75" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">FREE</text>
+  
+  <circle cx="430" cy="70" r="15" fill="#00aa00"/>
+  <text x="430" y="75" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">FREE</text>
+  
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#004c97" text-anchor="middle">Free Shipping Supplies</text>
+  <text x="250" y="225" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">Priority Mail® and Priority Mail Express® supplies</text>
+  <text x="250" y="250" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Order online - delivered to your door</text>
+</svg>
